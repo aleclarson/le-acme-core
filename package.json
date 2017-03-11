@@ -9,7 +9,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node example/letsencrypt.js"
+    "test": "sudo node example/letsencrypt.js"
   },
   "repository": {
     "type": "git",
