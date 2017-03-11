@@ -57,11 +57,9 @@ For **testing** and **development**, you can also inject the dependencies you wa
 'use strict';
 
 var ACME = require('le-acme-core').ACME.create({
-  request: require('request')
 , RSA: require('rsa-compat').RSA
 });
 
-// now uses node `request` (could also use jQuery or Angular in the browser)
 ACME.getAcmeUrls(discoveryUrl, function (err, urls) {
   console.log(urls);
 });
