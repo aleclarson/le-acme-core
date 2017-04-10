@@ -253,7 +253,7 @@ var http = require('http');
 
 
 var LeCore = deps.LeCore;
-var httpsOptions = deps.httpsOptions;
+var tlsOptions = deps.tlsOptions;
 var challengeStore = deps.challengeStore;
 var certStore = deps.certStore;
 
@@ -278,7 +278,7 @@ function acmeResponder(req, res) {
 //
 // Server
 //
-https.createServer(httpsOptions, acmeResponder).listen(5001, function () {
+https.createServer(tlsOptions, acmeResponder).listen(5001, function () {
   console.log('Listening https on', this.address());
 });
 http.createServer(acmeResponder).listen(80, function () {

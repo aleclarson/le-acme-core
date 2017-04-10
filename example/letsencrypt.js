@@ -99,7 +99,7 @@ function runDemo() {
                     closer();
 
                   });
-                  
+
                 }
             );
         }
@@ -112,7 +112,7 @@ function runDemo() {
 closer = serve.init({
   LeCore: LeCore
   // needs a default key and cert chain, anything will do
-, httpsOptions: require('localhost.daplie.com-certificates')
+, tlsOptions: require('localhost.daplie.me-certificates')
 , challengeStore: challengeStore
-, certStore: certStore 
+, certStore: certStore
 });
