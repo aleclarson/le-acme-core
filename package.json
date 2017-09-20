@@ -1,32 +1,7 @@
 {
   "name": "le-acme-core",
   "version": "2.1.1",
-  "description": "A framework for building letsencrypt clients, forked from letiny",
-  "main": "node.js",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://git.daplie.com/Daplie/le-acme-core.git"
-  },
   "license": "MPL-2.0",
-  "bugs": {
-    "url": "https://git.daplie.com/Daplie/le-acme-core/issues"
-  },
-  "homepage": "https://git.daplie.com/Daplie/le-acme-core#readme",
-  "keywords": [
-    "le-acme",
-    "le-acme-",
-    "tiny",
-    "acme",
-    "letsencrypt",
-    "client",
-    "pem",
-    "jwk",
-    "pfx"
-  ],
   "dependencies": {
     "request": "^2.74.0",
     "rsa-compat": "^1.2.7"
