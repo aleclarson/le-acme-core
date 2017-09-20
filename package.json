@@ -3,7 +3,7 @@
   "version": "2.1.1",
   "license": "MPL-2.0",
   "dependencies": {
-    "request": "^2.74.0",
+    "request": "aleclarson/request#1.0.0",
     "rsa-compat": "^1.2.7"
   },
   "devDependencies": {
