@@ -3,7 +3,6 @@
   "version": "2.1.1",
   "description": "A framework for building letsencrypt clients, forked from letiny",
   "main": "node.js",
-  "browser": "browser.js",
   "directories": {
     "example": "example",
     "test": "test"
