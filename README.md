@@ -1,23 +1,5 @@
-<!-- BANNER_TPL_BEGIN -->
-
-About Daplie: We're taking back the Internet!
---------------
-
-Down with Google, Apple, and Facebook!
-
-We're re-decentralizing the web and making it read-write again - one home cloud system at a time.
-
-Tired of serving the Empire? Come join the Rebel Alliance:
-
-<a href="mailto:jobs@daplie.com">jobs@daplie.com</a> | [Invest in Daplie on Wefunder](https://daplie.com/invest/) | [Pre-order Cloud](https://daplie.com/preorder/), The World's First Home Server for Everyone
-
-<!-- BANNER_TPL_END -->
 
 # le-acme-core
-
-Looking for **letiny-core**? Check the [v1.x branch](https://github.com/Daplie/le-acme-core/tree/v1.x).
-
-<!-- rename to le-acme-core -->
 
 A framework for building letsencrypt clients, forked from `letiny`.
 
@@ -28,20 +10,7 @@ Supports all of:
   * browser WebCrypto (not implemented, but... Let's Encrypt over WebRTC anyone?)
   * any javascript implementation
 
-### These aren't the droids you're looking for
-
-This is a library / framework for building letsencrypt clients.
-You probably want one of these pre-built clients instead:
-
-  * [`letsencrypt`](https://github.com/Daplie/node-letsencrypt) (compatible with the official client)
-  * `letiny` (lightweight client cli)
-  * [`letsencrypt-express`](https://github.com/Daplie/letsencrypt-express) (automatic https for express)
-
-## Install & Usage:
-
-```bash
-npm install --save le-acme-core
-```
+## Usage
 
 To use the default dependencies:
 
