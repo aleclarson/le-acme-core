@@ -16,7 +16,7 @@ var challengeTypes = ['http-01', 'tls-sni-01', 'dns-01'];
 var defaults = {
   stagingServerUrl: 'https://acme-staging.api.letsencrypt.org/directory',
   productionServerUrl: 'https://acme-v01.api.letsencrypt.org/directory',
-  acmeChallengePrefix: '/.well-known/acme-challenge/',
+  challengePrefix: '/.well-known/acme-challenge/',
   knownEndpoints: ['new-authz', 'new-cert', 'new-reg', 'revoke-cert', 'key-change'],
   challengeTypes: ['http-01', 'tls-sni-01', 'dns-01'],
   challengeType: 'http-01',
