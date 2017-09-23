@@ -24,6 +24,8 @@ var defaults = {
 };
 
 exports.create = function(config) {
+  if (!config) config = {};
+  if (!config.log) config.log = Function.prototype;
   var self = Object.assign({}, defaults);
   return Object.setPrototypeOf(self, {
     getAcmeUrls: getAcmeUrls.create(config),
