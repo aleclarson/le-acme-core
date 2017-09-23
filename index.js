@@ -6,6 +6,7 @@
 'use strict';
 
 var registerNewAccount = require('./lib/register-new-account');
+var revokeCertificate = require('./lib/revoke-certificate');
 var getCertificate = require('./lib/get-certificate');
 var getAcmeUrls = require('./lib/get-acme-urls');
 
@@ -27,6 +28,7 @@ exports.create = function(config) {
   return Object.setPrototypeOf(self, {
     getAcmeUrls: getAcmeUrls.create(config),
     getCertificate: getCertificate.create(config),
+    revokeCertificate: revokeCertificate.create(config),
     registerNewAccount: registerNewAccount.create(config),
   });
 };
