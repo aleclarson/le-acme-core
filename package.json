@@ -4,7 +4,7 @@
   "license": "MPL-2.0",
   "dependencies": {
     "assertValid": "aleclarson/assertValid#1.0.0",
-    "csr-gen": "aleclarson/csr-gen#1.1.0",
+    "cert-utils": "aleclarson/cert-utils#1.2.0",
     "request": "aleclarson/request#1.0.0",
     "rsa-utils": "aleclarson/rsa-utils#1.3.0"
   }
